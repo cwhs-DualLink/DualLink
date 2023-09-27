@@ -28,7 +28,7 @@
     });
   
     function checkViewport() {
-      isMobile = window.innerWidth < 870;
+      isMobile = window.innerWidth < 1200;
       const logoContainer = document.querySelector('.logo-container');
       logoContainer.style.marginLeft = isMobile ? '2vw' : '15vw';
     }
@@ -49,7 +49,7 @@
         <img src="/images/phoenix.svg" alt="its da logo">
       </a>
   
-      <a id="logo-word" href="/">CWHS DualLink</a>
+      <a id="logo-word" href="/"> DualLink</a>
     </div>
     {#if isMobile}
     <!-- Hide navigation elements on mobile -->
@@ -120,6 +120,7 @@
       align-items: center;
       justify-content: space-between;
       padding: 0 40px;
+
     }
   
     .logo-container {

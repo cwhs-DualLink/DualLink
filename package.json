@@ -28,6 +28,7 @@
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/kit": "^1.20.4",
 		"@sveltejs/package": "^2.0.0",
+		"@types/lunr": "^2.3.4",
 		"publint": "^0.1.9",
 		"svelte": "^4.0.5",
 		"svelte-check": "^3.4.3",
@@ -39,6 +40,7 @@
 	"types": "./dist/index.d.ts",
 	"type": "module",
 	"dependencies": {
-		"fuse.js": "^6.6.2"
+		"fuse.js": "^6.6.2",
+		"lunr": "^2.3.9"
 	}
 }
