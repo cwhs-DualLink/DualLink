@@ -1,0 +1,90 @@
+[
+    {
+      "id": "Languages - English",
+      "title": "Languages - English",
+      "color": "blue",
+      "courses": [
+        {
+          "springISDCourse": "Humanities 1306",
+          "loneStarCollegeCourse": "LSC Course A",
+          "collegeCreditHours": 3,
+          "springISDCredit": 1
+        },
+        {
+          "springISDCourse": "Humanities 1306",
+          "loneStarCollegeCourse": "LSC Course A",
+          "collegeCreditHours": 3,
+          "springISDCredit": 1
+
+
+        }
+      ]
+    },
+    {
+      "id": "Mathematics",
+      "title": "Mathematics",
+      "color": "red",
+      "courses": [
+        {
+          "springISDCourse": "stats",
+          "loneStarCollegeCourse": "LSC Course B",
+          "collegeCreditHours": 4,
+          "springISDCredit": 2
+        }
+      ]
+    },
+    {
+      "id": "Science",
+      "title": "Science",
+      "color": "green",
+      "courses": [
+        {
+          "springISDCourse": "stats",
+          "loneStarCollegeCourse": "LSC Course B",
+          "collegeCreditHours": 4,
+          "springISDCredit": 2
+        }
+      ]
+    },
+    {
+      "id": "Social Studies",
+      "title": "Social Studies",
+      "color": "orange",
+      "courses": [
+        {
+          "springISDCourse": "stats",
+          "SpringISDCourseE":"SpringISD Course",
+          "loneStarCollegeCourse": "LSC Course B",
+          "collegeCreditHours": 4,
+          "springISDCredit": 2
+        }
+      ]
+    },
+    {
+      "id": "Fine Arts",
+      "title": "Fine Arts",
+      "color": "pink",
+      "courses": [
+        {
+          "springISDCourse": "stats",
+          "loneStarCollegeCourse": "LSC Course B",
+          "collegeCreditHours": 4,
+          "springISDCredit": 2
+        }
+      ]
+    },
+    {
+      "id": "Career & Technical Edcuation",
+      "title": "Career & Technical Education",
+      "color": "purple",
+      "courses": [
+        {
+          "springISDCourse": "stats",
+          "loneStarCollegeCourse": "LSC Course B",
+          "collegeCreditHours": 4,
+          "springISDCredit": 2
+        }
+      ]
+    }
+  ]
+  

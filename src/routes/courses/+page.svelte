@@ -1,72 +1,52 @@
-<script>
-
-
-
-
-
-    
-    </script>
+<script lang="ts">
+    import { onMount } from 'svelte';
+    import type { Category } from '../../data/types.ts';
+  
+    let categories: Category[] = [];
+  
+    onMount(async () => {
+      const response = await fetch('/courses.json');
+      categories = await response.json();
+    });
+</script>
 
 <section id="nav">
-
     <div id="scrollbar">
-
-        <div class="scroll">
-            <a href=""> Languages - English</a>
-        </div>
-        <div class="scroll">
-            <a href=""> Languages Other Than English</a>
-        </div>
-        
-        <div class="scroll">
-            <a href=""> Mathematics </a>
-        </div>
-        
-        <div class="scroll">
-            <a href=""> Science </a>
-        </div>
-        
-        <div class="scroll">
-            <a href=""> Social Studies</a>
-        </div>
-        
-        <div class="scroll">
-            <a href=""> Fine Arts</a>
-        </div>
-    
-        <div class="scroll">
-            <a href=""> Career & Technical Education </a>
-        </div>
-
-    
-          
-        
-        
-        
+        {#each categories as category}
+            <div class="scroll">
+                <a href="#{category.id}"> {category.title}</a>
+            </div>
+        {/each}
     </div>
-
 
     <div class="navigation">
         <button id="leftscroll">
-
-           <img src="/images/left-arrow.png" alt="">
-            
-                          
-
-              
+            <img src="/images/left-arrow.png" alt="">
         </button> 
         
-        <h2> Scroll to view navigation</h2> 
+        <h2> Scroll to view course categories</h2> 
         
         <button id="rightscroll"> 
-            
             <img src="/images/right-arrow.png" alt="">
-              
         </button>
     </div>
+</section>
 
+<section id="cataloge">
+    {#each categories as category}
+        <h1 id={category.id} >{category.title}</h1>
+        <div class="grid">
+            {#each category.courses as course}
+                <div class="card">
+                    <p style="background-color: {category.color};"><strong>LoneStar Course:</strong> {course.loneStarCollegeCourse}</p>
+                    <h2 >{course.springISDCourse}</h2>
 
-
+                    <p><strong>College Credit Hours:</strong> {course.collegeCreditHours}</p>
+                    <p><strong>Spring ISD Credit:</strong> {course.springISDCredit}</p>
+                </div>
+            {/each}
+        </div>
+    {/each}
 </section>
 
 
@@ -74,7 +54,10 @@
 
 
 
+* {
+    scroll-behavior: smooth;
 
+}
 
     
 #nav {
@@ -90,6 +73,7 @@
     gap: 1.5rem;
     overflow-x: auto; 
     white-space: nowrap; 
+    
 }
 
 @media (max-width: 1640px) {
@@ -169,7 +153,7 @@
 
         .navigation h2{
             margin-top: 15px;
-            font-size: 16px;
+            font-size: 15px;
         }
 
     }
@@ -177,5 +161,18 @@
         border: none;
         background: none;
     }
+
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+
 
 </style>
