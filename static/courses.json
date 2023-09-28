@@ -20,8 +20,8 @@
         },
 
         {
-          "springISDCourse": "stats",
-          "loneStarCollegeCourse": "LSC Course A",
+          "springISDCourse": "English IV A/B 1301/1302 Prerequisites",
+          "loneStarCollegeCourse": "ENGL 2322, 2323",
           "collegeCreditHours": 3,
           "springISDCredit": 1
 
@@ -29,8 +29,8 @@
         },
 
         {
-          "springISDCourse": "stats",
-          "loneStarCollegeCourse": "LSC Course A",
+          "springISDCourse": "Humanities A/B",
+          "loneStarCollegeCourse": "Humanities A/B",
           "collegeCreditHours": 3,
           "springISDCredit": 1
 
@@ -38,19 +38,10 @@
         },
 
         {
-          "springISDCourse": "stats",
-          "loneStarCollegeCourse": "LSC Course A",
+          "springISDCourse": "Communication Applications",
+          "loneStarCollegeCourse": "SPEECH 1311",
           "collegeCreditHours": 3,
-          "springISDCredit": 1
-
-
-        },
-
-        {
-          "springISDCourse": "stats",
-          "loneStarCollegeCourse": "LSC Course A",
-          "collegeCreditHours": 3,
-          "springISDCredit": 1
+          "springISDCredit": 0.5
 
 
         }
@@ -62,10 +53,52 @@
       "color": "red",
       "courses": [
         {
-          "springISDCourse": "stats",
-          "loneStarCollegeCourse": "LSC Course B",
-          "collegeCreditHours": 4,
-          "springISDCredit": 2
+          "springISDCourse": "Algebra II B",
+          "loneStarCollegeCourse": "MATH 1314",
+          "collegeCreditHours": 3,
+          "springISDCredit": 0.5
+        },
+
+        {
+          "springISDCourse": "Algebra II B",
+          "loneStarCollegeCourse": "MATH 1314",
+          "collegeCreditHours": 3,
+          "springISDCredit": 0.5
+        },
+
+        {
+          "springISDCourse": "Independent Study in Mathematics",
+          "loneStarCollegeCourse": "MATH 1314, MATH 1324, MATH 1325",
+          "collegeCreditHours": 3,
+          "springISDCredit": 0.5
+        },
+
+        {
+          "springISDCourse": "Precalculus A",
+          "loneStarCollegeCourse": "MATH 1316",
+          "collegeCreditHours": 3,
+          "springISDCredit": 0.5
+        },
+
+        {
+          "springISDCourse": "Precalculus B",
+          "loneStarCollegeCourse": "MATH 1314",
+          "collegeCreditHours": 3,
+          "springISDCredit": 0.5
+        },
+
+        {
+          "springISDCourse": "Calculus I A/B", 
+          "loneStarCollegeCourse": "MATH 2413",
+          "collegeCreditHours": 3,
+          "springISDCredit": 1
+        },
+
+        {
+          "springISDCourse": "Statistics A/B",
+          "loneStarCollegeCourse": "MATH 1342",
+          "collegeCreditHours": 3,
+          "springISDCredit": 1
         }
       ]
     },
@@ -75,10 +108,73 @@
       "color": "green",
       "courses": [
         {
-          "springISDCourse": "stats",
-          "loneStarCollegeCourse": "LSC Course B",
+          "springISDCourse": "Scientific Research and Design II A/B",
+          "loneStarCollegeCourse": "BIOL 1408, BIOL 1409",
           "collegeCreditHours": 4,
-          "springISDCredit": 2
+          "springISDCredit": 1
+        },
+
+        {
+          "springISDCourse": "Biology for Science Majors A/B",
+          "loneStarCollegeCourse": "BIOL 1406, BIOL 1407",
+          "collegeCreditHours": 4,
+          "springISDCredit": 1
+        },
+
+        {
+          "springISDCourse": "Anatomy & Physiology of Human Systems A/B",
+          "loneStarCollegeCourse": "BIOL 2401, BIOL 2402",
+          "collegeCreditHours": 4,
+          "springISDCredit": 1
+        },
+
+        {
+          "springISDCourse": "Introductory Chemistry A/B",
+          "loneStarCollegeCourse": "CHEM 1405",
+          "collegeCreditHours": 4,
+          "springISDCredit": 1
+        },
+
+        {
+          "springISDCourse": "Earth and Space Science A/B",
+          "loneStarCollegeCourse": "GEOL 1403, GEOL 1405",
+          "collegeCreditHours": 4,
+          "springISDCredit": 1
+        },
+
+        {
+          "springISDCourse": "Environmental Science A/B",
+          "loneStarCollegeCourse": "ENVR 1401, ENVR 1402",
+          "collegeCreditHours": 4,
+          "springISDCredit": 1
+        },
+
+        {
+          "springISDCourse": "General Chemistry I",
+          "loneStarCollegeCourse": "CHEM 1411",
+          "collegeCreditHours": 4,
+          "springISDCredit": 0.5
+        },
+
+        {
+          "springISDCourse": "General Chemistry II",
+          "loneStarCollegeCourse": "CHEM 1412",
+          "collegeCreditHours": 4,
+          "springISDCredit": 0.5
+        },
+
+        {
+          "springISDCourse": "General Physics I",
+          "loneStarCollegeCourse": "PHYS 1401",
+          "collegeCreditHours": 4,
+          "springISDCredit": 0.5
+        },
+
+        {
+          "springISDCourse": "General Physics II",
+          "loneStarCollegeCourse": "PHYS 1402",
+          "collegeCreditHours": 4,
+          "springISDCredit": 0.5
         }
       ]
     },
@@ -88,11 +184,52 @@
       "color": "orange",
       "courses": [
         {
-          "springISDCourse": "stats",
-          "SpringISDCourseE":"SpringISD Course",
-          "loneStarCollegeCourse": "LSC Course B",
-          "collegeCreditHours": 4,
-          "springISDCredit": 2
+          "springISDCourse": "Economics",
+          "loneStarCollegeCourse": "ECON 2301",
+          "collegeCreditHours": 3,
+          "springISDCredit": 0.5
+        },
+
+        {
+          "springISDCourse": "Federal Government",
+          "loneStarCollegeCourse": "GOVT 2305",
+          "collegeCreditHours": 3,
+          "springISDCredit": 0.5
+        },
+
+        {
+          "springISDCourse": "Special Topics in Social Studies (Texas Government)",
+          "loneStarCollegeCourse": "GOVT 2306",
+          "collegeCreditHours": 3,
+          "springISDCredit": 0.5
+        },
+
+        {
+          "springISDCourse": "Psychology",
+          "loneStarCollegeCourse": "PSYC 2301",
+          "collegeCreditHours": 3,
+          "springISDCredit": 0.5
+        },
+
+        {
+          "springISDCourse": "Sociology",
+          "loneStarCollegeCourse": "SOCI 1301",
+          "collegeCreditHours": 3,
+          "springISDCredit": 0.5
+        },
+
+        {
+          "springISDCourse": "U.S. History to 1877",
+          "loneStarCollegeCourse": "HIST 1301",
+          "collegeCreditHours": 3,
+          "springISDCredit": 0.5
+        },
+
+        {
+          "springISDCourse": "U.S. History since 1877 A/B",
+          "loneStarCollegeCourse": "HIST 1302",
+          "collegeCreditHours": 3,
+          "springISDCredit": 1
         }
       ]
     },
@@ -102,10 +239,10 @@
       "color": "pink",
       "courses": [
         {
-          "springISDCourse": "stats",
-          "loneStarCollegeCourse": "LSC Course B",
-          "collegeCreditHours": 4,
-          "springISDCredit": 2
+          "springISDCourse": "Art I, Art Appreciation A/B",
+          "loneStarCollegeCourse": "ARTS 1301",
+          "collegeCreditHours": 3,
+          "springISDCredit": 1
         }
       ]
     },
