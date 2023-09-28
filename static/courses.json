@@ -5,13 +5,49 @@
       "color": "blue",
       "courses": [
         {
-          "springISDCourse": "Humanities 1306",
-          "loneStarCollegeCourse": "LSC Course A",
+          "springISDCourse": "English 3 A/B",
+          "loneStarCollegeCourse": "ENGL 1301, 1302",
           "collegeCreditHours": 3,
           "springISDCredit": 1
         },
         {
-          "springISDCourse": "Humanities 1306",
+          "springISDCourse": "English 4 A/B",
+          "loneStarCollegeCourse": "ENGL 1301, 1302",
+          "collegeCreditHours": 3,
+          "springISDCredit": 1
+
+
+        },
+
+        {
+          "springISDCourse": "stats",
+          "loneStarCollegeCourse": "LSC Course A",
+          "collegeCreditHours": 3,
+          "springISDCredit": 1
+
+
+        },
+
+        {
+          "springISDCourse": "stats",
+          "loneStarCollegeCourse": "LSC Course A",
+          "collegeCreditHours": 3,
+          "springISDCredit": 1
+
+
+        },
+
+        {
+          "springISDCourse": "stats",
+          "loneStarCollegeCourse": "LSC Course A",
+          "collegeCreditHours": 3,
+          "springISDCredit": 1
+
+
+        },
+
+        {
+          "springISDCourse": "stats",
           "loneStarCollegeCourse": "LSC Course A",
           "collegeCreditHours": 3,
           "springISDCredit": 1
