@@ -60,20 +60,6 @@
         },
 
         {
-          "springISDCourse": "Algebra II B",
-          "loneStarCollegeCourse": "MATH 1314",
-          "collegeCreditHours": 3,
-          "springISDCredit": 0.5
-        },
-
-        {
-          "springISDCourse": "Independent Study in Mathematics",
-          "loneStarCollegeCourse": "MATH 1314, MATH 1324, MATH 1325",
-          "collegeCreditHours": 3,
-          "springISDCredit": 0.5
-        },
-
-        {
           "springISDCourse": "Precalculus A",
           "loneStarCollegeCourse": "MATH 1316",
           "collegeCreditHours": 3,
@@ -82,7 +68,7 @@
 
         {
           "springISDCourse": "Precalculus B",
-          "loneStarCollegeCourse": "MATH 1314",
+          "loneStarCollegeCourse": "MATH 2412",
           "collegeCreditHours": 3,
           "springISDCredit": 0.5
         },
