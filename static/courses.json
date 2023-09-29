@@ -95,21 +95,21 @@
       "courses": [
         {
           "springISDCourse": "Scientific Research and Design II A/B",
-          "loneStarCollegeCourse": "BIOL 1408, BIOL 1409",
+          "loneStarCollegeCourse": "BIOL 1408, 1409",
           "collegeCreditHours": 4,
           "springISDCredit": 1
         },
 
         {
           "springISDCourse": "Biology for Science Majors A/B",
-          "loneStarCollegeCourse": "BIOL 1406, BIOL 1407",
+          "loneStarCollegeCourse": "BIOL 1406,1407",
           "collegeCreditHours": 4,
           "springISDCredit": 1
         },
 
         {
           "springISDCourse": "Anatomy & Physiology of Human Systems A/B",
-          "loneStarCollegeCourse": "BIOL 2401, BIOL 2402",
+          "loneStarCollegeCourse": "BIOL 2401, 2402",
           "collegeCreditHours": 4,
           "springISDCredit": 1
         },
@@ -123,14 +123,14 @@
 
         {
           "springISDCourse": "Earth and Space Science A/B",
-          "loneStarCollegeCourse": "GEOL 1403, GEOL 1405",
+          "loneStarCollegeCourse": "GEOL 1403, 1405",
           "collegeCreditHours": 4,
           "springISDCredit": 1
         },
 
         {
           "springISDCourse": "Environmental Science A/B",
-          "loneStarCollegeCourse": "ENVR 1401, ENVR 1402",
+          "loneStarCollegeCourse": "ENVR 1401,M1402",
           "collegeCreditHours": 4,
           "springISDCredit": 1
         },
