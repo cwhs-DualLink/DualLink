@@ -37,12 +37,16 @@
         <h1 id={category.id} >{category.title}</h1>
         <div class="grid">
             {#each category.courses as course}
-                <div class="card">
-                    <p style="background-color: {category.color};"><strong>LoneStar Course:</strong> {course.loneStarCollegeCourse}</p>
-                    <h2 >{course.springISDCourse}</h2>
+                <div class="card" style="--color: { category.color }">
+                    <div class="header">
+                        <p>{ course.springISDCourse }</p>
+                        <p>{ course.springISDCredit.toFixed(1) } HS Credit</p>
+                    </div>
 
-                    <p><strong>College Credit Hours:</strong> {course.collegeCreditHours}</p>
-                    <p><strong>Spring ISD Credit:</strong> {course.springISDCredit}</p>
+                    <div class="lone">
+                        <p>{ course.loneStarCollegeCourse }</p>
+                        <p>{ course.collegeCreditHours } College Credits</p>
+                    </div>
                 </div>
             {/each}
         </div>
@@ -51,9 +55,6 @@
 
 
 <style>
-
-
-
 * {
     scroll-behavior: smooth;
 
@@ -163,16 +164,62 @@
     }
 
   
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 1rem;
-  }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 1rem;
+    }
 
-  .card {
-    border: 1px solid #ccc;
-    border-radius: 8px;
-  }
+    .card {
+        border-radius: 8px;
+        overflow: hidden;
+
+        background-color: white;
+        filter: drop-shadow(0rem 0rem 3rem rgba(40, 42, 54, 0.08));
+
+    }
+
+
+    .card .header {
+        padding: 0.8rem 1rem; 
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 0.1rem;
+
+        position: relative;
+        
+    }
+
+    .card .header p {
+        z-index: 2;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: no-wrap;
+        height: 1.2em;
+    }
+
+    .card .header::after {
+        content: "";
+        position: absolute;
+        top: 0px; 
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        background-color: var(--color);
+        height: 100%;
+        opacity: 16%;
+    }
+
+    .card .lone {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 0.8rem 1rem; 
+    }
+
+
+
 
 
 </style>
