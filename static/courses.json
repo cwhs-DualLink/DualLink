@@ -238,12 +238,337 @@
       "color": "purple",
       "courses": [
         {
-          "springISDCourse": "stats",
-          "loneStarCollegeCourse": "LSC Course B",
+          "springISDCourse": "AC/DC Electronics",
+          "loneStarCollegeCourse": "ELPT 1311 or 1321",
+          "collegeCreditHours": 3,
+          "springISDCredit": 1
+        },
+        {
+          "springISDCourse": "Accounting 1",
+          "loneStarCollegeCourse": "ACNT 1303",
+          "collegeCreditHours": 3,
+          "springISDCredit": 1
+        },
+        {
+          "springISDCourse": "Advanced Cloud Computing",
+          "loneStarCollegeCourse": "ITSE 1350",
+          "collegeCreditHours": 3,
+          "springISDCredit": 1
+        },
+        {
+          "springISDCourse": "Advanced Video Game Programming",
+          "loneStarCollegeCourse": "GAME 1359",
+          "collegeCreditHours": 3,
+          "springISDCredit": 1
+        },
+        {
+          "springISDCourse": "Anatomy & Physiology of Human Systems A",
+          "loneStarCollegeCourse": "BIOL 2401",
+          "collegeCreditHours": 4,
+          "springISDCredit": 0.5
+        },
+        {
+          "springISDCourse": "Anatomy & Physiology of Human Systems B",
+          "loneStarCollegeCourse": "BIOL 2402",
+          "collegeCreditHours": 4,
+          "springISDCredit": 0.5
+        },
+       
+        {
+          "springISDCourse": "Architectural Design 1",
+          "loneStarCollegeCourse": "CNBT 1311, DFTG 1317, or DFTG 2319",
+          "collegeCreditHours": 3,
+          "springISDCredit": 1
+        },
+        {
+          "springISDCourse": "Architectural Design 2",
+          "loneStarCollegeCourse": "DFTG 1317, or DFTG 2319",
+          "collegeCreditHours": 3,
+          "springISDCredit": 1
+        },
+        {
+          "springISDCourse": "Automative Basics",
+          "loneStarCollegeCourse": "AUMT 1405",
+          "collegeCreditHours": 4,
+          "springISDCredit": 1
+        },
+        {
+          "springISDCourse": "Automotive Technology 1: Maintenance & Light Repair",
+          "loneStarCollegeCourse": "AUMT 1407 or AUMT 2437",
           "collegeCreditHours": 4,
           "springISDCredit": 2
+        },
+        {
+          "springISDCourse": "Automotive Technology 2: Automotive Services",
+          "loneStarCollegeCourse": "AUMT 1410 or AUMT 1416",
+          "collegeCreditHours": 4,
+          "springISDCredit": 2
+        },
+        {
+          "springISDCourse": "Barbering 1",
+          "loneStarCollegeCourse": "BARB 1407, 1402, & 1404",
+          "collegeCreditHours": 12,
+          "springISDCredit": 1
+        },
+        {
+          "springISDCourse": "BIM 1",
+          "loneStarCollegeCourse": "ITSC 1315 ",
+          "collegeCreditHours": 3,
+          "springISDCredit": 1
+        },
+        {
+          "springISDCourse": "BIM 2",
+          "loneStarCollegeCourse": "BCIS 1305",
+          "collegeCreditHours": 3,
+          "springISDCredit": 1
+        },
+        {
+          "springISDCourse": "Business Management ",
+          "loneStarCollegeCourse": "BMGT 1301, 1327, or BUSI 1301",
+          "collegeCreditHours": 3,
+          "springISDCredit": 1
+        },
+        {
+          "springISDCourse": "Computer Maintenance",
+          "loneStarCollegeCourse": "ITSC 1371",
+          "collegeCreditHours": 3,
+          "springISDCredit": 1
+        },
+        {
+          "springISDCourse": "Computer Science 1",
+          "loneStarCollegeCourse": "ITSC 1303",
+          "collegeCreditHours": 3,
+          "springISDCredit": 1
+        },
+        {
+          "springISDCourse": "Computer Science 2",
+          "loneStarCollegeCourse": "ITSC 2331",
+          "collegeCreditHours": 3,
+          "springISDCredit": 1
+        },
+        {
+          "springISDCourse": "Correctional Services",
+          "loneStarCollegeCourse": "CRIJ 2313",
+          "collegeCreditHours": 3,
+          "springISDCredit": 1
+        },
+        {
+          "springISDCourse": "Court Systems & Practices",
+          "loneStarCollegeCourse": "CRIJ 1306",
+          "collegeCreditHours": 3,
+          "springISDCredit": 1
+        },
+        {
+          "springISDCourse": "Digital Media",
+          "loneStarCollegeCourse": "IMED 1301",
+          "collegeCreditHours": 3,
+          "springISDCredit": 1
+        },
+        {
+          "springISDCourse": "Engineering Science-PLTW | UT Tyler",
+          "loneStarCollegeCourse": "ENGR 2301",
+          "collegeCreditHours": 2,
+          "springISDCredit": 1
+        },
+        {
+          "springISDCourse": "Foundamentals of Computer Science",
+          "loneStarCollegeCourse": "ITSE 1302",
+          "collegeCreditHours": 3,
+          "springISDCredit": 1
+        },
+        {
+          "springISDCourse": "Health Science Theory",
+          "loneStarCollegeCourse": "VNSG 1226",
+          "collegeCreditHours": 2,
+          "springISDCredit": 1
+        }, 
+        {
+          "springISDCourse": "Health Science Theory",
+          "loneStarCollegeCourse": "VNSG 1400",
+          "collegeCreditHours": 4,
+          "springISDCredit": 1
+        },
+        {
+          "springISDCourse": "Health Science Theory",
+          "loneStarCollegeCourse": "VNSG 1400",
+          "collegeCreditHours": 4,
+          "springISDCredit": 1
+        },
+        {
+          "springISDCourse": "Health Science Theory/Health Science Clinical",
+          "loneStarCollegeCourse": "VNSG 1160",
+          "collegeCreditHours": 1,
+          "springISDCredit": 2
+        },
+        {
+          "springISDCourse": "Health Science Theory/Health Science Clinical",
+          "loneStarCollegeCourse": "VNSG 1260",
+          "collegeCreditHours": 2,
+          "springISDCredit": 2
+        },
+        {
+          "springISDCourse": "Health Science Theory/Health Science Clinical",
+          "loneStarCollegeCourse": "VNSG 1323",
+          "collegeCreditHours": 3,
+          "springISDCredit": 2
+        },
+        {
+          "springISDCourse": "(HVAC) Heating, Venitilation, and Air Conditioning and Refrigeration Technology 1",
+          "loneStarCollegeCourse": "HART 1301",
+          "collegeCreditHours": 4,
+          "springISDCredit":1
+        },
+        {
+          "springISDCourse": "(HVAC) Heating, Venitilation, and Air Conditioning and Refrigeration Technology 2",
+          "loneStarCollegeCourse": "HART 1307, 1341, or 1345",
+          "collegeCreditHours": 4,
+          "springISDCredit":1
+        },
+        {
+          "springISDCourse": "Human Resource Management",
+          "loneStarCollegeCourse": "HRPO 1311",
+          "collegeCreditHours": 3,
+          "springISDCredit":1
+        },
+        {
+          "springISDCourse": "Introduction to C# Programming Applications",
+          "loneStarCollegeCourse": "ITSE 1307",
+          "collegeCreditHours": 3,
+          "springISDCredit":1
+        },
+        {
+          "springISDCourse": "ntro to Engineering Design-PLTW UT Tyler",
+          "loneStarCollegeCourse": "ENGR 1304",
+          "collegeCreditHours": 3,
+          "springISDCredit":1
+        },
+        {
+          "springISDCourse": "Introduction to Welding",
+          "loneStarCollegeCourse": "WLDG 1417",
+          "collegeCreditHours": 4,
+          "springISDCredit":2
+        },
+        {
+          "springISDCourse": "ntro to Engineering Design-PLTW UT Tyler",
+          "loneStarCollegeCourse": "ENGR 1304",
+          "collegeCreditHours": 3,
+          "springISDCredit":1
+        },
+        {
+          "springISDCourse": "Medical Terminology ",
+          "loneStarCollegeCourse": "HITT 1305",
+          "collegeCreditHours": 3,
+          "springISDCredit":1
+        },
+        {
+          "springISDCourse": "Metal Fabrication and Machining 1 ",
+          "loneStarCollegeCourse": "HITT 1428",
+          "collegeCreditHours": 4,
+          "springISDCredit": 2 
+        },
+        {
+          "springISDCourse": "Money Matters",
+          "loneStarCollegeCourse": "BUSI 1307",
+          "collegeCreditHours": 3,
+          "springISDCredit": 1
+        }, 
+        {
+          "springISDCourse": "Practicum in Business Management/Extended Practicum in Business Management",
+          "loneStarCollegeCourse": "BMGT 1309, 2303, 2382",
+          "collegeCreditHours": 3,
+          "springISDCredit": 3
+        },
+        {
+          "springISDCourse": "Practicum in Health Science",
+          "loneStarCollegeCourse": "EMSP 1160, 1305 or 1501",
+          "collegeCreditHours": 3,
+          "springISDCredit": 2
+        },
+        {
+          "springISDCourse": " Practicum in Health Science 2 - EMT/Extended Practicum in Health Science ",
+          "loneStarCollegeCourse": "EMSP 1160, 1305 or 1501",
+          "collegeCreditHours": 3,
+          "springISDCredit": 2
+        },
+        {
+          "springISDCourse": " Practicum in Information Technology/Extended Practicum in Information Technology",
+          "loneStarCollegeCourse": "ITSE 1332, 2349 and 2372 ",
+          "collegeCreditHours": 9,
+          "springISDCredit": 2
+        },
+        {
+          "springISDCourse": " Practicum in Transportation Systems/Extended Practicum in Transportation Systens",
+          "loneStarCollegeCourse": "AUMT 1345, 2417, or 2434 ",
+          "collegeCreditHours": 3,
+          "springISDCredit": 3
+        },
+        {
+          "springISDCourse": " Principles of Architecture",
+          "loneStarCollegeCourse": "ADFTG 1305 or 1309",
+          "collegeCreditHours": 3,
+          "springISDCredit": 1
+        },
+        {
+          "springISDCourse": " Principles of Education and Training ",
+          "loneStarCollegeCourse": "EDUC 1301",
+          "collegeCreditHours": 3,
+          "springISDCredit": 1
+        },
+        {
+          "springISDCourse": " Principles of Health Science",
+          "loneStarCollegeCourse": "VNSG 1304",
+          "collegeCreditHours": 3,
+          "springISDCredit": 1
+        },
+        {
+          "springISDCourse": " Principles of Information Technology",
+          "loneStarCollegeCourse": "COSC 1301",
+          "collegeCreditHours": 3,
+          "springISDCredit": 1
+        },
+        {
+          "springISDCourse": "Principles of Law, Public Safety, Corrections, and Security",
+          "loneStarCollegeCourse": "CRIJ 1301",
+          "collegeCreditHours": 3,
+          "springISDCredit": 1
+        },
+        {
+          "springISDCourse": "Professional Communications",
+          "loneStarCollegeCourse": "SPCH 1321",
+          "collegeCreditHours": 3,
+          "springISDCredit": 1
+        },
+        {
+          "springISDCourse": "Video Game Programming ",
+          "loneStarCollegeCourse": "GAME 1343",
+          "collegeCreditHours": 3,
+          "springISDCredit": 1
+        },
+         {
+          "springISDCourse": "Welding 1 ",
+          "loneStarCollegeCourse": "WLDG 1421 ",
+          "collegeCreditHours": 4,
+          "springISDCredit": 2
+        },
+        {
+          "springISDCourse": "Welding II/Welding II Lab  ",
+          "loneStarCollegeCourse": "WLDG 1417, 1428, or 1457 ",
+          "collegeCreditHours": 4,
+          "springISDCredit": 3
         }
+     
+     
+     
+     
+     
+        
+        
+
+
+
+
+        
       ]
     }
   ]
-  
+
