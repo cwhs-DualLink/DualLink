@@ -44,6 +44,14 @@
           "springISDCredit": 0.5
 
 
+        },
+        {
+          "springISDCourse": "College Readiness & Skills",
+          "loneStarCollegeCourse": "EDUC 1300",
+          "collegeCreditHours": 3,
+          "springISDCredit": 0.5
+
+
         }
       ]
     },
@@ -233,7 +241,7 @@
       ]
     },
     {
-      "id": "Career & Technical Edcuation",
+      "id": "Career & Technical Education",
       "title": "Career & Technical Education",
       "color": "purple",
       "courses": [
@@ -371,7 +379,7 @@
           "springISDCredit": 1
         },
         {
-          "springISDCourse": "Foundamentals of Computer Science",
+          "springISDCourse": "Fundamentals of Computer Science",
           "loneStarCollegeCourse": "ITSE 1302",
           "collegeCreditHours": 3,
           "springISDCredit": 1
@@ -437,7 +445,7 @@
           "springISDCredit":1
         },
         {
-          "springISDCourse": "ntro to Engineering Design-PLTW UT Tyler",
+          "springISDCourse": "Intro to Engineering Design-PLTW UT Tyler",
           "loneStarCollegeCourse": "ENGR 1304",
           "collegeCreditHours": 3,
           "springISDCredit":1
