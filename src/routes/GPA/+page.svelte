@@ -1,5 +1,6 @@
 <script>
     let courses = [{ id: Date.now(), name: '', grade: 0, credit: 0, type: 'Regular' }];
+    // @ts-ignore
     let gpa = null;
 
     const courseTypes = {
@@ -13,9 +14,13 @@
         courses = [...courses, { id: Date.now(), name: '', grade: 0, credit: 0, type: 'Regular' }];
     }
 
+    // @ts-ignore
     function getQualityPoints(grade, type) {
+        // @ts-ignore
         if (grade >= 90) return courseTypes[type];
+        // @ts-ignore
         if (grade >= 80) return courseTypes[type] - 1.0;
+        // @ts-ignore
         if (grade >= 75) return courseTypes[type] - 2.0;
         if (grade >= 70) return 2.0; // 2.0 for all types
         return 0; // 0 for all types below 70
@@ -24,7 +29,7 @@
     function calculateGPA() {
         let totalQualityPoints = 0;
         let totalCredits = 0;
-
+ 
         courses.forEach(course => {
             const qualityPoints = getQualityPoints(course.grade, course.type);
             totalQualityPoints += qualityPoints * course.credit;

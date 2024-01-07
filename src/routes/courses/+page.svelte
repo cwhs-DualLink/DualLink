@@ -1,11 +1,11 @@
 <script lang="ts">
     import { onMount } from 'svelte';
-    import type { Category } from '../../data/types.ts';
+    import type { Category } from '../../lib/data/types.ts';
   
     let categories: Category[] = [];
   
     onMount(async () => {
-      const response = await fetch('/courses.json');
+      const response = await fetch('../../lib/data/courses.json');
       categories = await response.json();
     });
 </script>
