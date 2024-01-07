@@ -60,7 +60,7 @@
         <li><a href="/" class:active={routeId === "/"}  id="underline_home">Home</a></li>
         <li><a href="/courses"  class:active={routeId === "/courses"} id="underline_courses">Courses</a></li>
         <li><a href="/GPA" class:active={routeId === "/GPA"}  id="underline_gpa"> GPA </a></li>
-        <li><a href="/advice" class:active={routeId === "/advice"}  id="underline_advice">Advice</a></li>
+        <li><a href="/alumni-network" class:active={routeId === "/alumni-network"}  id="underline_advice">Advice</a></li>
         <li><a href="/about" class:active={routeId === "/about"}  id="underline_about">About Us</a></li>
       </ul>
     </nav>

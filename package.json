@@ -41,6 +41,9 @@
 	"type": "module",
 	"dependencies": {
 		"fuse.js": "^6.6.2",
-		"lunr": "^2.3.9"
+		"lunr": "^2.3.9",
+		"saas": "^1.0.0",
+		"sass": "^1.69.7",
+		"scss": "^0.2.4"
 	}
 }

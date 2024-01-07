@@ -64,6 +64,7 @@
 #nav {
     display: flex;
     flex-direction: column;
+    position: sticky;
 }
 #scrollbar {
     display: flex;
@@ -218,6 +219,9 @@
         padding: 0.8rem 1rem; 
     }
 
+    h1 {
+        margin-bottom: 10px;
+    }
 
 
 
